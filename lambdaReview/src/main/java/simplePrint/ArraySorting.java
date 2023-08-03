@@ -1,3 +1,5 @@
+package simplePrint;
+
 public class ArraySorting {
     public static void main(String[] args) {
 
@@ -17,6 +19,6 @@ public class ArraySorting {
     }
 
 //    private void sort() {
-//        System.out.println("Sorting array -> bubble sort");
+//        System.out.println("simplePrint.Sorting array -> bubble sort");
 //    }
 }

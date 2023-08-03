@@ -52,8 +52,7 @@ public class Apple {
         ));
         SortApple heavyApples = (list -> {
             for (Apple each : list) {
-                String appleType = each.weight >= 200 ? "Heavy" : "Not heavy";
-                System.out.println(each + " -> " + appleType);
+                String appleType = each.weight >= 200 ? "Heavy" : "Not heavy"; System.out.println(each + " -> " + appleType);
             }
         });
         Apple.print(heavyApples, apples);
