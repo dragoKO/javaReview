@@ -1,9 +1,7 @@
 package appleSorting1;
 
 import java.awt.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.*;
 import java.util.List;
 
 public class Apple {
@@ -13,19 +11,15 @@ public class Apple {
     public Color getColor() {
         return color;
     }
-
     public void setColor(Color color) {
         this.color = color;
     }
-
     public double getWeigh() {
         return weigh;
     }
-
     public void setWeigh(double weigh) {
         this.weigh = weigh;
     }
-
     public Apple(Color color, double weigh) {
         this.color = color;
         this.weigh = weigh;
@@ -38,7 +32,6 @@ public class Apple {
         }
 
     }
-
     public static AppleSortByWeigh appleSortByWeigh() {
         return new AppleSortByWeigh();
     }
@@ -70,6 +63,7 @@ public class Apple {
         SortingApple asog=new AppleSortingOnlyGreen();
         asog.sortingApple(listOfApples);
         System.out.println(listOfApples);
+
 
 
     }
