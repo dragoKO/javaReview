@@ -62,6 +62,5 @@ public class Apple {
                 String appleType = each.color ==Color.GREEN ? "This is green apple" : "This is not green apple"; System.out.println(each + " -> " + appleType);
             }
         }), apples);
-
     }
 }
