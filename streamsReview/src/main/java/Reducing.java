@@ -1,3 +1,5 @@
+import part2_stream.review.DishData;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -23,7 +25,7 @@ public class Reducing {
         System.out.println("Sum:" + sum.get());
 
         //Task
-        int dishCount = DishData.getAll().stream().map(d -> 1).reduce(0,(a,b) -> a+b);
+        int dishCount = DishData.getAll().stream().map(d -> 1).reduce(0,(a, b) -> a+b);
         System.out.println(dishCount);
 
         long dcount = DishData.getAll().stream().count();

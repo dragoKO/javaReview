@@ -1,3 +1,5 @@
+package part2_stream.review;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

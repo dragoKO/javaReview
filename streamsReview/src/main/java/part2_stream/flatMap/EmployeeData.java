@@ -1,3 +1,7 @@
+package part2_stream.flatMap;
+
+import part2_stream.flatMap.Employee;
+
 import java.util.Arrays;
 import java.util.stream.Stream;
 

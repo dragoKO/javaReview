@@ -1,3 +1,7 @@
+import part2_stream.review.Dish;
+import part2_stream.review.DishData;
+import part2_stream.review.Type;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -40,7 +44,7 @@ public class JavaCollectors {
         //toMap(Function,Function) : returns a Collector interface that gathers the input data into a new map
         System.out.println("********TOMAP()***********");
         Map<String,Integer> dishMap = DishData.getAll().stream()
-                .collect(Collectors.toMap(Dish::getName,Dish::getCalories));
+                .collect(Collectors.toMap(Dish::getName, Dish::getCalories));
 
         System.out.println(dishMap);
 

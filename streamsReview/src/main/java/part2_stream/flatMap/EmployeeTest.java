@@ -1,3 +1,8 @@
+package part2_stream.flatMap;
+
+import part2_stream.flatMap.Employee;
+import part2_stream.flatMap.EmployeeData;
+
 import java.util.List;
 
 public class EmployeeTest {

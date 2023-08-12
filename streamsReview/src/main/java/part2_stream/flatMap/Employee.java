@@ -1,3 +1,5 @@
+package part2_stream.flatMap;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

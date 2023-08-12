@@ -1,3 +1,5 @@
+package part2_stream.review;
+
 import static java.util.Comparator.comparing;
 
 public class DishTask {
@@ -17,7 +19,7 @@ public class DishTask {
                 .map(String::length)
                 .forEach(System.out::println);
 
-        //Print Three High Caloric Dish Name(>300)
+        //Print Three High Caloric part2_stream.practice1.Dish Name(>300)
         System.out.println("***********************");
         DishData.getAll().stream()
                 .filter(dish -> dish.getCalories()>300)
