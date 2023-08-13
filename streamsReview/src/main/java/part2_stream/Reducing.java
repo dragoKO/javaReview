@@ -1,3 +1,5 @@
+package part2_stream;
+
 import part2_stream.review.DishData;
 
 import java.util.Arrays;
@@ -8,11 +10,11 @@ public class Reducing {
     public static void main(String[] args) {
 
         List<Integer> numbers = Arrays.asList(4,5,3,9);
-        int result = numbers.stream().reduce(0,(a,b) -> a+b);
+        int result = numbers.stream().reduce(100,(a,b) -> a+b); // 100+4+5+3+9
         System.out.println(result);
 
         //No initial value
-        Optional<Integer> result2 = numbers.stream().reduce((a, b) -> a+b);
+        Optional<Integer> result2 = numbers.stream().reduce((a, b) -> a+b); // optional to avoid NullPointerException
         System.out.println(result2);
 
         //Max and Min

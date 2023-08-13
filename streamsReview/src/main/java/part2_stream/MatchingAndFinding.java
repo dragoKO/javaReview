@@ -1,3 +1,5 @@
+package part2_stream;
+
 import part2_stream.review.Dish;
 import part2_stream.review.DishData;
 
