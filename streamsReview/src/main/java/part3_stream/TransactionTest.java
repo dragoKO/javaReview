@@ -1,3 +1,5 @@
+package part3_stream;
+
 import java.util.Optional;
 
 import static java.util.Comparator.comparing;

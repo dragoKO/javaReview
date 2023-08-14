@@ -1,3 +1,5 @@
+package part3_stream;
+
 import java.util.stream.Stream;
 
 public class InfiniteStream {
